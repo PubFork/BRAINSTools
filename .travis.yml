@@ -7,6 +7,8 @@
 # to allow C++11, though we are not yet building with -std=c++11
 language: cpp
 sudo: false
+git:
+  depth: false # Need the full depth of the repo for version history
 #cache: ccache  <-- todo investigate
 #use containers  <-- todo investigate
 addons:
